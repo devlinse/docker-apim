@@ -1,0 +1,6 @@
+{
+  "validityTime": "3600",
+  "keyType": "PRODUCTION",
+  "accessAllowDomains": ["ALL"
+  ]
+}

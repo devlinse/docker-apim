@@ -1,0 +1,12 @@
+{
+	"supportedGrantTypes": [
+        	"refresh_token",
+        	"urn:ietf:params:oauth:grant-type:saml2-bearer",
+        	"password",
+             	"client_credentials",
+             	"iwa:ntlm",
+		"implicit",
+		"authorization_code"
+        ],
+        "callbackUrl": "http://sample/com/callback"
+}
