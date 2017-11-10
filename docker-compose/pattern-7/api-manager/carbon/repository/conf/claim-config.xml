@@ -535,104 +535,104 @@
 				<AttributeID>active</AttributeID>
 				<Description>Status of the account</Description>
 			</Claim>
-
-                       <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsDepthLevel00</ClaimURI>
-                                <DisplayName>Insights Depth Level 00</DisplayName>
-                                <AttributeID>insightsDepthLevel00</AttributeID>
-                                <Description>Insights Depth Level 00</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>
-                   		<Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsDepthLevel01</ClaimURI>
-                                <DisplayName>Insights Depth Level 01</DisplayName>
-                                <AttributeID>insightsDepthLevel01</AttributeID>
-                                <Description>Insights Depth Level 01</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>                        
-                   <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsDepthLevel02</ClaimURI>
-                                <DisplayName>Insights Depth Level 02</DisplayName>
-                                <AttributeID>insightsDepthLevel02</AttributeID>
-                                <Description>Insights Depth Level 02</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>
-                        <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsDepthLevel03</ClaimURI>
-                                <DisplayName>Insights Depth Level 03</DisplayName>
-                                <AttributeID>insightsDepthLevel03</AttributeID>
-                                <Description>Insights Depth Level 03</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>
-                        <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsDepthLevel04</ClaimURI>
-                                <DisplayName>Insights Depth Level 04</DisplayName>
-                                <AttributeID>insightsDepthLevel04</AttributeID>
-                                <Description>Insights Depth Level 04</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>
-                        <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsDepthLevel05</ClaimURI>
-                                <DisplayName>Insights Depth Level 05</DisplayName>
-                                <AttributeID>insightsDepthLevel05</AttributeID>
-                                <Description>Insights Depth Level 05</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>
-                        <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsDepthLevel06</ClaimURI>
-                                <DisplayName>Insights Depth Level 06</DisplayName>
-                                <AttributeID>insightsDepthLevel06</AttributeID>
-                                <Description>Insights Depth Level 06</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>
-                        <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsDepthLevel07</ClaimURI>
-                                <DisplayName>Insights Depth Level 07</DisplayName>
-                                <AttributeID>insightsDepthLevel07</AttributeID>
-                                <Description>Insights Depth Level 07</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>
-                        <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsDepthLevel08</ClaimURI>
-                                <DisplayName>Insights Depth Level 08</DisplayName>
-                                <AttributeID>insightsDepthLevel08</AttributeID>
-                                <Description>Insights Depth Level 08</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>
-                        <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsDepthLevel09</ClaimURI>
-                                <DisplayName>Insights Depth Level 09</DisplayName>
-                                <AttributeID>insightsDepthLevel09</AttributeID>
-                                <Description>Insights Depth Level 09</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>
-                        <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsAgentId</ClaimURI>
-                                <DisplayName>Insights AgentId</DisplayName>
-                                <AttributeID>insightsAgentId</AttributeID>
-                                <Description>Agent Id</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>
-                        <Claim>
-                                <ClaimURI>http://wso2.org/claims/insightsJobTitle</ClaimURI>
-                                <DisplayName>Insights Job Title</DisplayName>
-                                <AttributeID>insightsJobTitle</AttributeID>
-                                <Description>Job Title</Description>
-                                <Required />
-                                <SupportedByDefault />
-                        </Claim>                        
-
+			<!-- start custom claims for local dialect -->
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsDepthLevel00</ClaimURI>
+				<DisplayName>Insights Depth Level 00</DisplayName>
+				<AttributeID>insightsDepthLevel00</AttributeID>
+				<Description>Insights Depth Level 00</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsDepthLevel01</ClaimURI>
+				<DisplayName>Insights Depth Level 01</DisplayName>
+				<AttributeID>insightsDepthLevel01</AttributeID>
+				<Description>Insights Depth Level 01</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsDepthLevel02</ClaimURI>
+				<DisplayName>Insights Depth Level 02</DisplayName>
+				<AttributeID>insightsDepthLevel02</AttributeID>
+				<Description>Insights Depth Level 02</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsDepthLevel03</ClaimURI>
+				<DisplayName>Insights Depth Level 03</DisplayName>
+				<AttributeID>insightsDepthLevel03</AttributeID>
+				<Description>Insights Depth Level 03</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsDepthLevel04</ClaimURI>
+				<DisplayName>Insights Depth Level 04</DisplayName>
+				<AttributeID>insightsDepthLevel04</AttributeID>
+				<Description>Insights Depth Level 04</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsDepthLevel05</ClaimURI>
+				<DisplayName>Insights Depth Level 05</DisplayName>
+				<AttributeID>insightsDepthLevel05</AttributeID>
+				<Description>Insights Depth Level 05</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsDepthLevel06</ClaimURI>
+				<DisplayName>Insights Depth Level 06</DisplayName>
+				<AttributeID>insightsDepthLevel06</AttributeID>
+				<Description>Insights Depth Level 06</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsDepthLevel07</ClaimURI>
+				<DisplayName>Insights Depth Level 07</DisplayName>
+				<AttributeID>insightsDepthLevel07</AttributeID>
+				<Description>Insights Depth Level 07</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsDepthLevel08</ClaimURI>
+				<DisplayName>Insights Depth Level 08</DisplayName>
+				<AttributeID>insightsDepthLevel08</AttributeID>
+				<Description>Insights Depth Level 08</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsDepthLevel09</ClaimURI>
+				<DisplayName>Insights Depth Level 09</DisplayName>
+				<AttributeID>insightsDepthLevel09</AttributeID>
+				<Description>Insights Depth Level 09</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsAgentId</ClaimURI>
+				<DisplayName>Insights AgentId</DisplayName>
+				<AttributeID>insightsAgentId</AttributeID>
+				<Description>Agent Id</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/insightsJobTitle</ClaimURI>
+				<DisplayName>Insights Job Title</DisplayName>
+				<AttributeID>insightsJobTitle</AttributeID>
+				<Description>Job Title</Description>
+				<Required/>
+				<SupportedByDefault/>
+			</Claim>
+			<!-- end custom claims for local dialect -->
 		</Dialect>
 
 		<Dialect dialectURI="http://schemas.xmlsoap.org/ws/2005/05/identity">
@@ -1386,6 +1386,129 @@
 				<SupportedByDefault />
 				<MappedLocalClaim>http://wso2.org/claims/x509Certificates</MappedLocalClaim>
 			</Claim>
+
+			<!-- start scim schema extension attributes -->
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsDepthLevel00</ClaimURI>
+				<DisplayName>Insights DepthLevel 00</DisplayName>
+				<AttributeID>insightsDepthLevel00</AttributeID>
+				<Description>Insights DepthLevel 00</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel00</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsDepthLevel01</ClaimURI>
+				<DisplayName>Insights DepthLevel 01</DisplayName>
+				<AttributeID>insightsDepthLevel01</AttributeID>
+				<Description>Insights DepthLevel 01</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel01</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsDepthLevel02</ClaimURI>
+				<DisplayName>Insights DepthLevel 02</DisplayName>
+				<AttributeID>insightsDepthLevel02</AttributeID>
+				<Description>Insights DepthLevel 02</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel02</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsDepthLevel03</ClaimURI>
+				<DisplayName>Insights DepthLevel 03</DisplayName>
+				<AttributeID>insightsDepthLevel03</AttributeID>
+				<Description>Insights DepthLevel 03</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel03</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsDepthLevel04</ClaimURI>
+				<DisplayName>Insights DepthLevel 04</DisplayName>
+				<AttributeID>insightsDepthLevel04</AttributeID>
+				<Description>Insights DepthLevel 04</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel04</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsDepthLevel05</ClaimURI>
+				<DisplayName>Insights DepthLevel 05</DisplayName>
+				<AttributeID>insightsDepthLevel05</AttributeID>
+				<Description>Insights DepthLevel 05</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel05</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsDepthLevel06</ClaimURI>
+				<DisplayName>Insights DepthLevel 06</DisplayName>
+				<AttributeID>insightsDepthLevel06</AttributeID>
+				<Description>Insights DepthLevel 06</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel06</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsDepthLevel07</ClaimURI>
+				<DisplayName>Insights DepthLevel 07</DisplayName>
+				<AttributeID>insightsDepthLevel07</AttributeID>
+				<Description>Insights DepthLevel 07</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel07</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsDepthLevel08</ClaimURI>
+				<DisplayName>Insights DepthLevel 08</DisplayName>
+				<AttributeID>insightsDepthLevel08</AttributeID>
+				<Description>Insights DepthLevel 08</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel08</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsDepthLevel09</ClaimURI>
+				<DisplayName>Insights DepthLevel 09</DisplayName>
+				<AttributeID>insightsDepthLevel09</AttributeID>
+				<Description>Insights DepthLevel 09</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel09</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsAgentId</ClaimURI>
+				<DisplayName>Insights AgentId</DisplayName>
+				<AttributeID>insightsAgentId</AttributeID>
+				<Description>Insights AgentId</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsAgentId</MappedLocalClaim>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:core:1.0:insightsJobTitle</ClaimURI>
+				<DisplayName>Insights Job Title</DisplayName>
+				<AttributeID>insightsJobTitle</AttributeID>
+				<Description>insights Job Title</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/insightsJobTitle</MappedLocalClaim>
+			</Claim>
+
 		</Dialect>
 		<Dialect dialectURI="http://wso2.org/oidc/claim">
 			<Claim>
@@ -1596,100 +1719,97 @@
 				<MappedLocalClaim>http://wso2.org/claims/country</MappedLocalClaim>
 		    </Claim>
 
-<Claim>
-  <ClaimURI>insightsDepthLevel00</ClaimURI>
-  <DisplayName>insightsDepthLevel00</DisplayName>
-  <AttributeID>insightsDepthLevel00</AttributeID>
-  <Description>Description of insightsDepthLevel00 field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel00</MappedLocalClaim>
-</Claim>
+			<Claim>
+				<ClaimURI>insightsDepthLevel00</ClaimURI>
+				<DisplayName>insightsDepthLevel00</DisplayName>
+				<AttributeID>insightsDepthLevel00</AttributeID>
+				<Description>Description of insightsDepthLevel00 field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel00</MappedLocalClaim>
+			</Claim>
 
-<Claim>
-  <ClaimURI>insightsDepthLevel01</ClaimURI>
-  <DisplayName>insightsDepthLevel01</DisplayName>
-  <AttributeID>insightsDepthLevel01</AttributeID>
-  <Description>Description of insightsDepthLevel01 field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel01</MappedLocalClaim>
-</Claim>
+			<Claim>
+				<ClaimURI>insightsDepthLevel01</ClaimURI>
+				<DisplayName>insightsDepthLevel01</DisplayName>
+				<AttributeID>insightsDepthLevel01</AttributeID>
+				<Description>Description of insightsDepthLevel01 field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel01</MappedLocalClaim>
+			</Claim>
 
-<Claim>
-  <ClaimURI>insightsDepthLevel02</ClaimURI>
-  <DisplayName>insightsDepthLevel02</DisplayName>
-  <AttributeID>insightsDepthLevel02</AttributeID>
-  <Description>Description of insightsDepthLevel02 field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel02</MappedLocalClaim>
-</Claim>
+			<Claim>
+				<ClaimURI>insightsDepthLevel02</ClaimURI>
+				<DisplayName>insightsDepthLevel02</DisplayName>
+				<AttributeID>insightsDepthLevel02</AttributeID>
+				<Description>Description of insightsDepthLevel02 field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel02</MappedLocalClaim>
+			</Claim>
 
-<Claim>
-  <ClaimURI>insightsDepthLevel03</ClaimURI>
-  <DisplayName>insightsDepthLevel03</DisplayName>
-  <AttributeID>insightsDepthLevel03</AttributeID>
-  <Description>Description of insightsDepthLevel03 field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel03</MappedLocalClaim>
-</Claim>
+			<Claim>
+				<ClaimURI>insightsDepthLevel03</ClaimURI>
+				<DisplayName>insightsDepthLevel03</DisplayName>
+				<AttributeID>insightsDepthLevel03</AttributeID>
+				<Description>Description of insightsDepthLevel03 field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel03</MappedLocalClaim>
+			</Claim>
 
-<Claim>
-  <ClaimURI>insightsDepthLevel04</ClaimURI>
-  <DisplayName>insightsDepthLevel04</DisplayName>
-  <AttributeID>insightsDepthLevel04</AttributeID>
-  <Description>Description of insightsDepthLevel04 field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel04</MappedLocalClaim>
-</Claim>
-<Claim>
-  <ClaimURI>insightsDepthLevel05</ClaimURI>
-  <DisplayName>insightsDepthLevel05</DisplayName>
-  <AttributeID>insightsDepthLevel05</AttributeID>
-  <Description>Description of insightsDepthLevel05 field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel05</MappedLocalClaim>
-</Claim>
-<Claim>
-  <ClaimURI>insightsDepthLevel06</ClaimURI>
-  <DisplayName>insightsDepthLevel06</DisplayName>
-  <AttributeID>insightsDepthLevel06</AttributeID>
-  <Description>Description of insightsDepthLevel06 field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel06</MappedLocalClaim>
-</Claim>
-<Claim>
-  <ClaimURI>insightsDepthLevel07</ClaimURI>
-  <DisplayName>insightsDepthLevel07</DisplayName>
-  <AttributeID>insightsDepthLevel07</AttributeID>
-  <Description>Description of insightsDepthLevel07 field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel07</MappedLocalClaim>
-</Claim>
-<Claim>
-  <ClaimURI>insightsDepthLevel08</ClaimURI>
-  <DisplayName>insightsDepthLevel08</DisplayName>
-  <AttributeID>insightsDepthLevel08</AttributeID>
-  <Description>Description of insightsDepthLevel08 field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel08</MappedLocalClaim>
-</Claim>
+			<Claim>
+				<ClaimURI>insightsDepthLevel04</ClaimURI>
+				<DisplayName>insightsDepthLevel04</DisplayName>
+				<AttributeID>insightsDepthLevel04</AttributeID>
+				<Description>Description of insightsDepthLevel04 field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel04</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>insightsDepthLevel05</ClaimURI>
+				<DisplayName>insightsDepthLevel05</DisplayName>
+				<AttributeID>insightsDepthLevel05</AttributeID>
+				<Description>Description of insightsDepthLevel05 field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel05</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>insightsDepthLevel06</ClaimURI>
+				<DisplayName>insightsDepthLevel06</DisplayName>
+				<AttributeID>insightsDepthLevel06</AttributeID>
+				<Description>Description of insightsDepthLevel06 field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel06</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>insightsDepthLevel07</ClaimURI>
+				<DisplayName>insightsDepthLevel07</DisplayName>
+				<AttributeID>insightsDepthLevel07</AttributeID>
+				<Description>Description of insightsDepthLevel07 field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel07</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>insightsDepthLevel08</ClaimURI>
+				<DisplayName>insightsDepthLevel08</DisplayName>
+				<AttributeID>insightsDepthLevel08</AttributeID>
+				<Description>Description of insightsDepthLevel08 field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel08</MappedLocalClaim>
+			</Claim>
 
-<Claim>
-  <ClaimURI>insightsDepthLevel09</ClaimURI>
-  <DisplayName>insightsDepthLevel09</DisplayName>
-  <AttributeID>insightsDepthLevel09</AttributeID>
-  <Description>Description of insightsDepthLevel09 field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel09</MappedLocalClaim>
-</Claim>
+			<Claim>
+				<ClaimURI>insightsDepthLevel09</ClaimURI>
+				<DisplayName>insightsDepthLevel09</DisplayName>
+				<AttributeID>insightsDepthLevel09</AttributeID>
+				<Description>Description of insightsDepthLevel09 field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsDepthLevel09</MappedLocalClaim>
+			</Claim>
 
-<Claim>
-  <ClaimURI>insightsAgentId</ClaimURI>
-  <DisplayName>insightsAgentId</DisplayName>
-  <AttributeID>insightsAgentId</AttributeID>
-  <Description>Description of insightsAgentId field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsAgentId</MappedLocalClaim>
-</Claim>
+			<Claim>
+				<ClaimURI>insightsAgentId</ClaimURI>
+				<DisplayName>insightsAgentId</DisplayName>
+				<AttributeID>insightsAgentId</AttributeID>
+				<Description>Description of insightsAgentId field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsAgentId</MappedLocalClaim>
+			</Claim>
 
-<Claim>
-  <ClaimURI>insightsAgentJobTitle</ClaimURI>
-  <DisplayName>insightsAgentJobTitle</DisplayName>
-  <AttributeID>insightsAgentJobTitle</AttributeID>
-  <Description>Description of insightsAgentJobTitle field</Description>
-  <MappedLocalClaim>http://wso2.org/claims/insightsAgentJobTitle</MappedLocalClaim>
-</Claim>
-
-
-
+			<Claim>
+				<ClaimURI>insightsAgentJobTitle</ClaimURI>
+				<DisplayName>insightsAgentJobTitle</DisplayName>
+				<AttributeID>insightsAgentJobTitle</AttributeID>
+				<Description>Description of insightsAgentJobTitle field</Description>
+				<MappedLocalClaim>http://wso2.org/claims/insightsAgentJobTitle</MappedLocalClaim>
+			</Claim>
 
 		</Dialect>
 	</Dialects>
