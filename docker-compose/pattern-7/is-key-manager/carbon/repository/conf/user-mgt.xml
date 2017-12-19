@@ -38,7 +38,8 @@
 	         Note: Do not comment within UserStoreManager tags. Cause, specific tag names are used as tokens
 	         when building configurations for products.
 	    -->
-        <UserStoreManager class="com.honeybee.user.store.HoneybeeJDBCUserStoreManager">
+        <!--UserStoreManager class="com.honeybee.user.store.HoneybeeJDBCUserStoreManager"-->
+        <UserStoreManager class="org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager">
             <Property name="TenantManager">org.wso2.carbon.user.core.tenant.JDBCTenantManager</Property>
             <Property name="ReadOnly">false</Property>
             <Property name="ReadGroups">true</Property>

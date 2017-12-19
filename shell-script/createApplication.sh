@@ -1,5 +1,5 @@
 #change IP address accordingly
-IP_ADDRESS=172.17.0.1
+IP_ADDRESS=10.100.5.163
 HTTP_PORT_IS=9764
 HTTPS_PORT_IS=9444
 HTTP_PORT_APIM=80
@@ -8,7 +8,7 @@ SYNAPSE_PORT=8243
 USERNAME=admin
 PASSWORD=admin
 #Change application name everytime
-APPLICATION_NAME=sample44
+APPLICATION_NAME=sample105
 PRODUCTION=PRODUCTION
 UN=_
 SERVICE_PROVIDER_NAME="$USERNAME$UN$APPLICATION_NAME$UN$PRODUCTION"
@@ -16,7 +16,7 @@ SERVICE_PROVIDER_NAME="$USERNAME$UN$APPLICATION_NAME$UN$PRODUCTION"
 #install jq from below URL
 #http://xmodulo.com/how-to-parse-json-string-via-command-line-on-linux.html
 
-echo "..............String Dynamic Client Registration.............."
+echo "..............Starting Dynamic Client Registration.............."
 cmd=$(curl -X POST -H "Authorization: Basic YWRtaW46YWRtaW4=" -H "Content-Type: application/json" -d @initial_token.json http://$IP_ADDRESS:$HTTP_PORT_APIM/client-registration/v0.11/register)
 clientId=$(echo $cmd | jq -r '.clientId')
 clientSecret=$(echo $cmd | jq -r '.clientSecret')
@@ -37,6 +37,7 @@ sed -i "s/NAME/$APPLICATION_NAME/g" create_application.json
 cmd=$(curl -k -H "Authorization: Bearer $access_token" -H "Content-Type: application/json" -X POST -d @create_application.json "https://$IP_ADDRESS:$HTTPS_PORT_APIM/api/am/store/v0.11/applications")
 sed -i "s/$APPLICATION_NAME/NAME/g" create_application.json
 applicationId=$(echo $cmd | jq -r '.applicationId')
+echo $cmd
 echo "Application ID: $applicationId"
 
 
@@ -66,13 +67,18 @@ applicationID=$(grep -oP '(?<=ax2199:applicationID>)[^<]+' "get_sp_reponse.xml")
 echo "Service Provider Application ID: $applicationID"
 echo $cmd
 
+echo "Service Provider Consumer Key: $consumerKey"
+echo "Service Provider Consumer Secret: $consumerSecret"
 sed -i "s/SERVICE_PROVIDER_ID/$applicationID/g" update_sp_claims.xml
 sed -i "s/SERVICE_PROVIDER_NAME/$SERVICE_PROVIDER_NAME/g" update_sp_claims.xml
+sed -i "s/CONSUMER_KEY/$consumerKey/g" update_sp_claims.xml
+sed -i "s/CONSUMER_SECRET/$consumerSecret/g" update_sp_claims.xml
 cmd=$(curl -k -H "Authorization: Basic YWRtaW46YWRtaW4=" -H "Content-Type: text/xml;charset=UTF-8" -H "SOAPAction:urn:updateApplication" -d @update_sp_claims.xml "https://$IP_ADDRESS:$HTTPS_PORT_IS/services/IdentityApplicationManagementService?wsdl")
 sed -i "s/$applicationID/SERVICE_PROVIDER_ID/g" update_sp_claims.xml
 sed -i "s/$SERVICE_PROVIDER_NAME/SERVICE_PROVIDER_NAME/g" update_sp_claims.xml
+sed -i "s/$consumerKey/CONSUMER_KEY/g" update_sp_claims.xml
+sed -i "s/$consumerSecret/CONSUMER_SECRET/g" update_sp_claims.xml
 echo $cmd
-
 
 
 
