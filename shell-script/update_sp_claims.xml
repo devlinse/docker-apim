@@ -64,21 +64,6 @@
                   <xsd1:inboundAuthType>oauth2</xsd1:inboundAuthType>
                   <!--Optional:-->
                   <xsd1:inboundConfigType>standardAPP</xsd1:inboundConfigType>
-                  <!--Zero or more repetitions:-->
-                  <xsd1:properties>
-                     <!--Optional:-->
-                     <xsd1:advanced>false</xsd1:advanced>
-                     <!--Optional:-->
-                     <xsd1:confidential>false</xsd1:confidential>
-                     <!--Optional:-->
-                     <xsd1:displayOrder>0</xsd1:displayOrder>
-                     <!--Optional:-->
-                     <xsd1:name>oauthConsumerSecret</xsd1:name>
-                     <!--Optional:-->
-                     <xsd1:required>false</xsd1:required>
-                     <!--Optional:-->
-                     <xsd1:value>CONSUMER_SECRET</xsd1:value>
-                  </xsd1:properties>
                </xsd1:inboundAuthenticationRequestConfigs>
             </xsd1:inboundAuthenticationConfig>
             <!--Optional:-->
