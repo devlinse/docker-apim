@@ -19,8 +19,23 @@
     <Scope id="openid">
         <Claim>
             sub,email,email_verified,name,family_name,given_name,middle_name,nickname,preferred_username,profile,picture,
-            website,gender,birthdate,zoneinfo,locale,updated_at,phone_number,phone_number_verified,address,street,insightsDepthLevel00,insightsDepthLevel01,insightsDepthLevel02,insightsDepthLevel03,insightsDepthLevel04,insightsDepthLevel05,insightsDepthLevel06,insightsDepthLevel07,insightsDepthLevel08,insightsDepthLevel09,insightsAgentId,insightsJobTitle
+            website,gender,birthdate,zoneinfo,locale,updated_at,phone_number,phone_number_verified,address,street,role
         </Claim>
+    </Scope>
+    <Scope id="insights">
+        <Claim>
+            insightsDepthLevel00,insightsDepthLevel01,insightsDepthLevel02,insightsDepthLevel03,insightsDepthLevel04,insightsDepthLevel05,
+            insightsDepthLevel06,insightsDepthLevel07,insightsDepthLevel08,insightsDepthLevel09,
+            insightsAgentId,insightsJobTitle,insightsDepthName00,insightsDepthName01,insightsDepthName02,insightsDepthName03,
+            insightsDepthName04,insightsDepthName05,insightsDepthName06,insightsDepthName07,insightsDepthName08,insightsDepthName09,
+            insightsBirthdayDay,insightsBirthdayMonth,insightsBirthdayYear,insightsWorkAnniversaryDay,insightsWorkAnniversaryMonth
+        </Claim>
+    </Scope>
+     <Scope id="p2p">
+        <Claim>role</Claim>
+    </Scope>
+     <Scope id="dotcms">
+        <Claim>role</Claim>
     </Scope>
     <Scope id="email">
         <Claim>email,email_verified</Claim>
