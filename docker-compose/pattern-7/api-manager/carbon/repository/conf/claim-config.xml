@@ -536,8 +536,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthLevel00</ClaimURI>
                 <DisplayName>insightsDepthLevel00</DisplayName>
                 <AttributeID>insightsDepthLevel00</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthLevel00 field</Description>
                 <DisplayOrder>50</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -545,8 +544,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthLevel01</ClaimURI>
                 <DisplayName>insightsDepthLevel01</DisplayName>
                 <AttributeID>insightsDepthLevel01</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthLevel01 field</Description>
                 <DisplayOrder>51</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -554,8 +552,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthLevel02</ClaimURI>
                 <DisplayName>insightsDepthLevel02</DisplayName>
                 <AttributeID>insightsDepthLevel02</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthLevel02 field</Description>
                 <DisplayOrder>52</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -563,8 +560,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthLevel03</ClaimURI>
                 <DisplayName>insightsDepthLevel03</DisplayName>
                 <AttributeID>insightsDepthLevel03</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthLevel03 field</Description>
                 <DisplayOrder>53</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -572,8 +568,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthLevel04</ClaimURI>
                 <DisplayName>insightsDepthLevel04</DisplayName>
                 <AttributeID>insightsDepthLevel04</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthLevel04 field</Description>
                 <DisplayOrder>54</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -581,8 +576,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthLevel05</ClaimURI>
                 <DisplayName>insightsDepthLevel05</DisplayName>
                 <AttributeID>insightsDepthLevel05</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthLevel05 field</Description>
                 <DisplayOrder>55</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -590,8 +584,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthLevel06</ClaimURI>
                 <DisplayName>insightsDepthLevel06</DisplayName>
                 <AttributeID>insightsDepthLevel06</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthLevel06 field</Description>
                 <DisplayOrder>56</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -599,8 +592,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthLevel07</ClaimURI>
                 <DisplayName>insightsDepthLevel07</DisplayName>
                 <AttributeID>insightsDepthLevel07</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthLevel07 field</Description>
                 <DisplayOrder>57</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -608,8 +600,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthLevel08</ClaimURI>
                 <DisplayName>insightsDepthLevel08</DisplayName>
                 <AttributeID>insightsDepthLevel08</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthLevel08 field</Description>
                 <DisplayOrder>58</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -617,8 +608,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthName00</ClaimURI>
                 <DisplayName>insightsDepthName00</DisplayName>
                 <AttributeID>insightsDepthName00</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthName00 field</Description>
                 <DisplayOrder>59</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -626,8 +616,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthName01</ClaimURI>
                 <DisplayName>insightsDepthName01</DisplayName>
                 <AttributeID>insightsDepthName01</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthName01 field</Description>
                 <DisplayOrder>60</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -635,8 +624,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthName02</ClaimURI>
                 <DisplayName>insightsDepthName02</DisplayName>
                 <AttributeID>insightsDepthName02</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthName02 field</Description>
                 <DisplayOrder>61</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -644,8 +632,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthName03</ClaimURI>
                 <DisplayName>insightsDepthName03</DisplayName>
                 <AttributeID>insightsDepthName03</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthName03 field</Description>
                 <DisplayOrder>62</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -653,8 +640,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthName04</ClaimURI>
                 <DisplayName>insightsDepthName04</DisplayName>
                 <AttributeID>insightsDepthName04</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthName04 field</Description>
                 <DisplayOrder>63</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -662,8 +648,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthName05</ClaimURI>
                 <DisplayName>insightsDepthName05</DisplayName>
                 <AttributeID>insightsDepthName05</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthName05 field</Description>
                 <DisplayOrder>64</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -671,8 +656,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthName06</ClaimURI>
                 <DisplayName>insightsDepthName06</DisplayName>
                 <AttributeID>insightsDepthName06</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthName06 field</Description>
                 <DisplayOrder>65</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -680,8 +664,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthName07</ClaimURI>
                 <DisplayName>insightsDepthName07</DisplayName>
                 <AttributeID>insightsDepthName07</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthName07 field</Description>
                 <DisplayOrder>66</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -689,8 +672,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsDepthName08</ClaimURI>
                 <DisplayName>insightsDepthName08</DisplayName>
                 <AttributeID>insightsDepthName08</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsDepthName08 field</Description>
                 <DisplayOrder>67</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -698,8 +680,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsAgentId</ClaimURI>
                 <DisplayName>insightsAgentId</DisplayName>
                 <AttributeID>insightsAgentId</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsAgentId field</Description>
                 <DisplayOrder>68</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -707,8 +688,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsJobTitle</ClaimURI>
                 <DisplayName>insightsJobTitle</DisplayName>
                 <AttributeID>insightsJobTitle</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsJobTitle field</Description>
                 <DisplayOrder>69</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -716,8 +696,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsBirthdayDay</ClaimURI>
                 <DisplayName>insightsBirthdayDay</DisplayName>
                 <AttributeID>insightsBirthdayDay</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsBirthdayDay field</Description>
                 <DisplayOrder>70</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -725,8 +704,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsBirthdayMonth</ClaimURI>
                 <DisplayName>insightsBirthdayMonth</DisplayName>
                 <AttributeID>insightsBirthdayMonth</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsBirthdayMonth field</Description>
                 <DisplayOrder>71</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -734,8 +712,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsWorkAnniversaryDay</ClaimURI>
                 <DisplayName>insightsWorkAnniversaryDay</DisplayName>
                 <AttributeID>insightsWorkAnniversaryDay</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsWorkAnniversaryDay field</Description>
                 <DisplayOrder>72</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -743,8 +720,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsWorkAnniversaryMonth</ClaimURI>
                 <DisplayName>insightsWorkAnniversaryMonth</DisplayName>
                 <AttributeID>insightsWorkAnniversaryMonth</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsWorkAnniversaryMonth field</Description>
                 <DisplayOrder>73</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
@@ -752,8 +728,7 @@
                 <ClaimURI>http://wso2.org/claims/insightsWorkAnniversaryYear</ClaimURI>
                 <DisplayName>insightsWorkAnniversaryYear</DisplayName>
                 <AttributeID>insightsWorkAnniversaryYear</AttributeID>
-                <Description>
-                </Description>
+                <Description>Description of insightsWorkAnniversaryYear field</Description>
                 <DisplayOrder>74</DisplayOrder>
                 <SupportedByDefault />
             </Claim>
